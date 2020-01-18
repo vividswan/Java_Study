@@ -15,4 +15,4 @@
     - 묵시적 형 변환과 명시적 형 변환의 차이점 확인 (basic/CastingPractice.java)
     - continue와 break를 이용한 특정조건 구구단 출력연습 (basic/ContinueBreakPractice.java)
     - 반복문을 사용하여 주어진 수가 가운데인 다이아몬드 만들기 (basic/MakeDiamond.java)
-    - 논리 and와 or 연산자에서의 단락회로평가(Short Circuit Evaluation) 테스트 (basic/ShortCircuitPractice.java)
+    - AND와 OR 논리연산자에서의 단락회로평가(Short Circuit Evaluation) 테스트 (basic/ShortCircuitPractice.java)
