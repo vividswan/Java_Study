@@ -11,5 +11,5 @@
 - - -
 
 #### 코드
-- Java 기초 (Basic of Java)
-    - if문을 이용한 점수에 따른 성적 출력하기 연습 (BasicOfJava/IfPractice.java)
+- Java 기초 (basic package)
+    - if문을 이용한 점수에 따른 성적 출력하기 연습 (basic/IfPractice.java)
