@@ -11,3 +11,4 @@
 #### 소스코드
 - Java 기초 (basic package)
     - if문을 이용한 점수에 따른 성적 출력하기 연습 (basic/IfPractice.java)
+    - switch-case 문을 이용한 2월이 28일이라고 가정할 때, switch-case문을 이용해 각 달 수를 출력하기 (basic/SwitchCasePractice.java)
