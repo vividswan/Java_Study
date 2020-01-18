@@ -8,6 +8,7 @@ public class SwitchCasePractice {
 		System.out.println("월을 입력하시오.");
 		Scanner scanner = new Scanner(System.in);
 		int month = scanner.nextInt();
+		scanner.close();
 		int daySize;
 		switch (month) {
 			case 1: case 3: case 5: case 7: case 8: case 10: case 12: // 이런식의 표현도 가능, case는 왠만하면 들여쓰기 해두자!
