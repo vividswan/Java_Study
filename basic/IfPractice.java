@@ -10,6 +10,7 @@ public class IfPractice {
 		System.out.println("점수를 입력하시오.");
 		Scanner scanner = new Scanner(System.in);
 		int score = scanner.nextInt();
+		scanner.close();
 		char grade;
 		
 		if(score>=90) grade='A'; // 90~100 점 : A
