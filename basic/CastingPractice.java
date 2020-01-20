@@ -5,7 +5,7 @@ public class CastingPractice {
 	public static void main(String[] args) {
 		/* 
 		 * 묵시적 형 변환 (작은 자료형 => 큰 자료형)
-		 * 형식적 형 변환 (큰 자료형 => 작은 자료형)
+		 * 명시적 형 변환 (큰 자료형 => 작은 자료형)
 		 * test (큰 자료형 : double형, 작은 자료형 : int형)
 		 */
 		int intNum=10; // 작은 자료형
