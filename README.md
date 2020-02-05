@@ -24,3 +24,4 @@
 - 객체 지향 프로그래밍 (Object Oriented Programming)
   - 객체를 만들고 생성자를 이용한 객체 생성 및 사용 연습 (objectoriented/reference)
   - 참조 자료형을 이용한 객체 생성과 실습 (objectoriented/constructor)
+  - 접근제어자 private 및 set, get 실습<정보은닉> (objectoriented/informationhiding)
