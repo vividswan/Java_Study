@@ -1,5 +1,4 @@
-package objectoriented;
-
+package objectoriented.reference;
 
 public class EmployeeTest {
 
@@ -7,8 +6,8 @@ public class EmployeeTest {
 		Employee employeePark = new Employee(); // new => 새로운 클래스를 만들겠다는 선언
 		employeePark.employeeId = 1234;
 		employeePark.employeeName = "vividswan";
-		employeePark.employeePosition ="master";
-		
+		employeePark.employeePosition = "master";
+
 		employeePark.showInformation(); // 1234, vividswan, master 출력
 	}
 
