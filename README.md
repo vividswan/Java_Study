@@ -22,7 +22,8 @@
   - AND와 OR 논리연산자에서의 단락회로평가(Short Circuit Evaluation) 테스트 (basic/ShortCircuitPractice.java)
 
 - 객체 지향 프로그래밍 (Object Oriented Programming)
-  - 객체를 만들고 생성자를 이용한 객체 생성 및 사용 연습 (objectoriented/reference)
-  - 참조 자료형을 이용한 객체 생성과 실습 (objectoriented/constructor)
-  - 접근제어자 private 및 set, get 실습<정보은닉> (objectoriented/informationhiding)
-  - this 실습과 this를 활용한 인스턴트 자신의 주소 반환 및 출력 (objectoriented/thispractice)
+  - 객체를 만들고 생성자를 이용한 객체 생성 및 사용 연습 (objectoriented/reference.java)
+  - 참조 자료형을 이용한 객체 생성과 실습 (objectoriented/constructor.java)
+  - 접근제어자 private 및 set, get 실습<정보은닉> (objectoriented/informationhiding.java)
+  - this 실습과 this를 활용한 인스턴트 자신의 주소 반환 및 출력 (objectoriented/thispractice.java)
+  - 객체 간 협업 실습 (objectoriented/Bus.java, Student.java, Subway.java, TakeTransTest.java)
