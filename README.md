@@ -25,3 +25,4 @@
   - 객체를 만들고 생성자를 이용한 객체 생성 및 사용 연습 (objectoriented/reference)
   - 참조 자료형을 이용한 객체 생성과 실습 (objectoriented/constructor)
   - 접근제어자 private 및 set, get 실습<정보은닉> (objectoriented/informationhiding)
+  - this 실습과 this를 활용한 인스턴트 자신의 주소 반환 및 출력 (objectoriented/thispractice)
