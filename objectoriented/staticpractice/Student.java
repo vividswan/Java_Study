@@ -1,44 +1,44 @@
-package staticpractice;
+package objectoriented.staticpractice;
 
 public class Student {
-	private static int serialNum = 1000; 
-	// ÀÎ½ºÅÏÆ®¿¡ °ü°è¾øÀÌ ÇĞ»ıÀÌ Ãß°¡µÉ ¶§ ¸¶´Ù number¸¦ Ãß°¡ÇØÁÖ°í½ÍÀ½ => static »ç¿ë!!
+	private static int serialNum = 1000;
+	// ì¸ìŠ¤í„´íŠ¸ì— ê´€ê³„ì—†ì´ í•™ìƒì´ ì¶”ê°€ë  ë•Œ ë§ˆë‹¤ numberë¥¼ ì¶”ê°€í•´ì£¼ê³ ì‹¶ìŒ => static ì‚¬ìš©!!
 	private int studentID;
 	public String studentName;
 	public String address;
-	
+
 	public Student(String name) {
-		studentName=name;
+		studentName = name;
 		serialNum++;
-		studentID= serialNum; // serialNumÀ» ÇĞ¹øÀ¸·Î »ç¿ë
+		studentID = serialNum; // serialNumì„ í•™ë²ˆìœ¼ë¡œ ì‚¬ìš©
 	}
-	
+
 	public Student(int id, String name) {
-		studentID=id;
-		studentName=name;
-		address="ÁÖ¼Ò ¾øÀ½";
+		studentID = id;
+		studentName = name;
+		address = "ì£¼ì†Œ ì—†ìŒ";
 		serialNum++;
-		studentID= serialNum;
+		studentID = serialNum;
 	}
-	
+
 	public void showStudentInfo() {
-		System.out.println(studentName+","+address);
+		System.out.println(studentName + "," + address);
 	}
-	
+
 	public String getStudentName() {
 		return studentName;
 	}
-	
+
 	public int getStudentID() {
 		return studentID;
 	}
-	
+
 	public static int getSerialNum() {
 		return serialNum;
-		// studentName="Lee"; ÀÎ½ºÅÏÆ® º¯¼ö´Â static ¸Ş¼­µå¿¡¼­ »ç¿ëºÒ°¡
+		// studentName="Lee"; ì¸ìŠ¤í„´íŠ¸ ë³€ìˆ˜ëŠ” static ë©”ì„œë“œì—ì„œ ì‚¬ìš©ë¶ˆê°€
 	}
 	// static method = class method
-	
+
 	public static void setSerialNum(int serialNum) {
 		Student.serialNum = serialNum;
 	}
