@@ -27,4 +27,4 @@
   - 접근제어자 private 및 set, get 실습<정보은닉> (objectoriented/informationhiding)
   - this 실습과 this를 활용한 인스턴트 자신의 주소 반환 및 출력 (objectoriented/thispractice)
   - 객체 간 협업 실습 (objectoriented/cooperation)
-  - static 사용 실습(objectoriented/staticpractice)
+  - static 사용 및 singleton pattern 사용(objectoriented/staticpractice, objectoriented/singletonpattern)
