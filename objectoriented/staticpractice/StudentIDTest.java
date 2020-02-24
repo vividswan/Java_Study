@@ -1,29 +1,29 @@
-package staticpractice;
+package objectoriented.staticpractice;
 
 public class StudentIDTest {
 
 	public static void main(String[] args) {
 		System.out.println(Student.getSerialNum());
-		// ÀÎ½ºÅÏ½ºÀÇ »ı¼º°ú´Â »ó°ü¾øÀÌ static º¯¼ö »ç¿ë °¡´É!
-		
+		// ì¸ìŠ¤í„´ìŠ¤ì˜ ìƒì„±ê³¼ëŠ” ìƒê´€ì—†ì´ static ë³€ìˆ˜ ì‚¬ìš© ê°€ëŠ¥!
+
 		Student studentPark = new Student("Park");
 		System.out.println(studentPark.getSerialNum()); // 1001
-		// static º¯¼ö´Â ÂüÁ¶º¯¼ö¸¦ accessÇÏ´Â°Ô ¾Æ´Ï°í class¸¦ access
-		// studentParkÀ» Student·Î ¹Ù²ãµµ ¶È°°´Ù.
-		
+		// static ë³€ìˆ˜ëŠ” ì°¸ì¡°ë³€ìˆ˜ë¥¼ accessí•˜ëŠ”ê²Œ ì•„ë‹ˆê³  classë¥¼ access
+		// studentParkì„ Studentë¡œ ë°”ê¿”ë„ ë˜‘ê°™ë‹¤.
+
 		Student studentKim = new Student("Kim");
-		
+
 		System.out.println(studentKim.getSerialNum()); // 1002
 		System.out.println(studentPark.getSerialNum()); // 1002
-		// µÑ ´Ù 1002 => µÎ °³°¡ °°Àº ¸Ş¸ğ¸®¸¦ °øÀ¯ÇÏ°íÀÖ´Ù.
-		
-		// µ¥ÀÌÅÍ¿µ¿ª : serialNum, ½ºÅÃ ¸Ş¸ğ¸® : studentPark, studentKim, Èü: studentPark ÀÎ½ºÅÏ½º, studentKim ÀÎ½ºÅÏ½º
-		
-		
+		// ë‘˜ ë‹¤ 1002 => ë‘ ê°œê°€ ê°™ì€ ë©”ëª¨ë¦¬ë¥¼ ê³µìœ í•˜ê³ ìˆë‹¤.
+
+		// ë°ì´í„°ì˜ì—­ : serialNum, ìŠ¤íƒ ë©”ëª¨ë¦¬ : studentPark, studentKim, í™: studentPark ì¸ìŠ¤í„´ìŠ¤,
+		// studentKim ì¸ìŠ¤í„´ìŠ¤
+
 		System.out.println(studentPark.getStudentID());
-		// 1001 Ãâ·Â
+		// 1001 ì¶œë ¥
 		System.out.println(studentKim.getStudentID());
-		// 1002 Ãâ·Â
+		// 1002 ì¶œë ¥
 	}
 
 }
