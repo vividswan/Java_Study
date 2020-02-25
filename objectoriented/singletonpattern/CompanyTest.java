@@ -1,7 +1,5 @@
 package objectoriented.singletonpattern;
 
-import java.util.Calendar;
-
 public class CompanyTest {
 
     public static void main(String[] args) {
@@ -14,8 +12,6 @@ public class CompanyTest {
         System.out.println(company2);
         // 동일한 address 출력
 
-        Calendar calendar = Calendar.getInstance();
-        // java.util에 있는 singletone pattern
     }
 
 }
