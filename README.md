@@ -28,3 +28,4 @@
   - this 실습과 this를 활용한 인스턴트 자신의 주소 반환 및 출력 (objectoriented/thispractice)
   - 객체 간 협업 실습 (objectoriented/cooperation)
   - static 사용 및 singleton pattern 사용(objectoriented/staticpractice, objectoriented/singletonpattern)
+  - 상속을 통한 하위 클래스 생성 (objectoriented/inheritance)
