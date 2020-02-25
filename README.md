@@ -29,3 +29,4 @@
   - 객체 간 협업 실습 (objectoriented/cooperation)
   - static 사용 및 singleton pattern 사용(objectoriented/staticpractice, objectoriented/singletonpattern)
   - 상속을 통한 하위 클래스 생성 연습 (objectoriented/inheritance)
+  - 배열, 다차원 배열 및 ArrayList 사용 실습 (objectoriented/array)
