@@ -10,7 +10,7 @@
 
 ### JDK 사용 프로그래밍 (Using JDK Programming)
 
-### Design Pattern
+### 디자인 패턴 (Design Pattern)
 
 ---
 
@@ -40,5 +40,5 @@
   - 템플릿 메서드 사용 (objectorientoriented/templatemethod)
   - 인터페이스 실습 (objectoriented/interfacepractice)
 
-  - Design Pattern
-    - Singleton Pattern (Design Pattern/SingetonPattern)
+- 디자인 패턴 (Design Pattern)
+  - Singleton Pattern (Design Pattern/SingetonPattern)
