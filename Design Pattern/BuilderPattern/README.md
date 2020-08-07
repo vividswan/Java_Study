@@ -1,11 +1,3 @@
----
-title: "[Java] Builder 패턴"
-tags:
-  - Java
-last_modified_at: 2020-08-07T08:06:00-05:00
-key: "[Java] Builder 패턴"
----
-
 # Builder 패턴
 
 생성자의 파라미터를 이용해 클래스를 만들 때 Builder 패턴을 사용한다.<br>
